@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha --harmony-destructuring server/**/*.test.js",
     "test-watch": "nodemon --harmony-destructuring --exec 'npm test'"
+  },
+  "engines": {
+    "node": "9.4.0"
   },
   "author": "",
   "license": "ISC",
