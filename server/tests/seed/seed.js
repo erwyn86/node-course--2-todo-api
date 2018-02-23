@@ -18,7 +18,7 @@ var userTwoId = new ObjectID();
 
 const users = [{
   _id: userOneId,
-  email: 'erwyn86@yahoo.com',
+  email: 'erwyn86123@yahoo.com',
   password: 'userOnePass',
   tokens: [{
     access: 'auth',
@@ -26,8 +26,8 @@ const users = [{
   }]
 }, {
   _id: userTwoId,
-  email: 'erwyn86777@yahoo.com',
-  password: 'userTwoPass'
+  email: 'erwyn86@yahoo.com',
+  password: 'pass1234'
 }];
 
 const populateTodos = (done) => {

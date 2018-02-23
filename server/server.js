@@ -127,7 +127,7 @@ app.post('/users/login', (req, res) => {
       res.header('x-auth',token).send(user);
     });
   }).catch((err) => {
-    res.status(401).send((process.env.DEBUG) ? err : 'Unable to find user');
+    res.status(400).send('Unable to find user');
   });
 
   //res.send(User.findByCredentials(body.email, body.password));
