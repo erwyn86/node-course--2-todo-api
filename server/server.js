@@ -153,7 +153,7 @@ app.delete('/users/me/token', authenticate, (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Sarted on port $(port)`);
+  console.log(`Sarted on port ${port}`);
 });
 
 module.exports = { app }
